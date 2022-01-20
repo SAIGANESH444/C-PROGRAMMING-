@@ -1,0 +1,30 @@
+// display net salary
+
+
+
+#include <stdio.h>
+
+void main()
+{
+    int salary,HRA,DA,net_salary;
+
+  printf("enter salary");
+  scanf("%d",&salary);
+
+  printf("enter HRA");
+  scanf("%d",&HRA);
+
+  printf("enter DA");
+  scanf("%d",&DA);
+
+  net_salary=salary+HRA+DA;
+
+  printf("salary %6d\n",salary);
+  printf("HRA %6d\n",HRA);
+  printf("DA %6d\n",DA);
+  printf("  --------\n");
+  printf("net_salary  %6d\n",net_salary);
+  printf("  --------\n");
+
+}
+
