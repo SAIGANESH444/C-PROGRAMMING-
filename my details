@@ -1,0 +1,15 @@
+// my details
+// name
+// mobile number
+// e-mail
+
+#include<stdio.h>
+
+void main()
+
+{
+    printf(" sai ganesh\n");
+    printf("9014676564\n");
+    printf("jallakai666@gmail.com\n");
+
+}
