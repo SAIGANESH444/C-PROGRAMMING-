@@ -1,0 +1,17 @@
+// calculate net price
+
+
+#include <stdio.h>
+
+void main()
+{
+   float price, discount, net_price;
+
+      // input
+      printf("Enter price :");
+      scanf("%f",&price);
+
+      // Calculate 10% discount
+      discount = price * 10 / 100;
+      net_price = price - discount;
+}
