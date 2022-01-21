@@ -1,0 +1,27 @@
+// accept three subject marks
+
+#include<stdio.h>
+
+void main()
+
+{
+ int maths,phy,chem,total,avg;
+
+ printf("enter the marks of maths");
+ scanf("%d",&maths);
+
+ printf("enter the marks of phy ");
+ scanf("%d",&phy);
+
+ printf("enter the marks of chem");
+ scanf("%d",&chem);
+
+
+ total=maths+phy+chem;
+ avg=total/3;
+
+ printf("total is    :%6d\n",total);
+ printf("avg is        :%6d\n",avg);
+
+ }
+
