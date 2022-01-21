@@ -1,0 +1,25 @@
+//  display marks in two subjects
+
+#include<stdio.h>
+
+void main()
+
+{
+
+  int maths,chemistry;
+
+  printf("enter the marks of maths");
+  scanf("%d",&maths);
+
+  printf("enter the marks of chemistry");
+  scanf("%d",&chemistry);
+
+   if(maths&&chemistry > 50)
+      printf("PASS!");
+   else
+      printf("FAIL!");
+
+
+}
+
+
