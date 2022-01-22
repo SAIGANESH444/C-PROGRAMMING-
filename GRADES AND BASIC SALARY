@@ -1,0 +1,34 @@
+// NET SALARY BASED ON GRADE AND SALARY
+
+#include<stdio.h>
+
+void main()
+
+ {
+     int grade,hra,da,netsalary,salary;
+
+     printf("enter grade[1/2]");
+     scanf("%d",&grade);
+
+     printf("enter salary");
+     scanf("%d",&salary);
+
+     if(grade==1)
+     {
+      hra = salary * 35 / 100;
+      da = salary *20 / 100;
+     }
+
+    else
+    {
+     hra = salary * 40 / 100;
+     da = salary * 25 / 100;
+    }
+
+
+       netsalary = salary + hra + da;
+       printf("netsalary        %d",netsalary);
+
+
+ }
+ 
