@@ -1,0 +1,37 @@
+// GRADES BASED ON MARKS
+
+ #include<stdio.h>
+
+ void main()
+ {
+
+ int M1,M2;
+
+ M1 = 97;
+ M2 = 75;
+
+ if(M1 > 80)
+
+  {
+   if (M2 > 80)
+      printf("A");
+    else
+    printf("B");
+
+   }
+   else
+
+   {
+   if(M2 > 80)
+     printf("C");
+   else
+     printf("D");
+   }
+
+
+}
+
+
+
+
+
