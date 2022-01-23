@@ -1,0 +1,20 @@
+/ accept two numbers
+
+#include<stdio.h>
+
+void main()
+
+{
+int num1,num2;
+
+num1 = 200;
+num2 = 20;
+
+if(num1 > num2)
+  printf("num1 : greater");
+
+  else
+  printf("num1 : lesser");
+
+
+}
