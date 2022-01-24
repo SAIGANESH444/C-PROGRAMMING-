@@ -1,0 +1,27 @@
+// accept two no's and grades
+
+#include<stdio.h>
+
+void main()
+{
+
+int n1,n2;
+
+n1 = 888;
+n2 = 11;
+
+if(n1%2 == 0 && n2%2 ==0)
+  printf("grade A");
+
+   else
+      if(n1%2 == 0)
+       printf("grade B");
+
+      else
+       if(n2%2 == 0)
+        printf("grade C");
+
+         else
+         printf("grade D");
+
+  }
