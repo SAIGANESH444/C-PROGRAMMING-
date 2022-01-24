@@ -1,0 +1,21 @@
+// display no's reverse
+
+#include<stdio.h>
+
+void main()
+
+{
+    int n,digit;
+
+    n = 914676564;
+
+    while(n > 0)
+    {
+       digit = n%10;
+       printf("%d",digit);
+       n /= 10;
+
+    }
+
+}
+
