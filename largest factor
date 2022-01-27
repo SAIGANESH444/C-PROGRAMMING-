@@ -1,0 +1,19 @@
+// largest factor
+
+#include<stdio.h>
+
+void main()
+{
+
+int n=300,i;
+
+for(i=n/2;i>0;i--)
+{
+    if(n%i ==0)
+
+{
+    printf("largest  factor =  %d",i);
+    break;
+     }
+  }
+}
