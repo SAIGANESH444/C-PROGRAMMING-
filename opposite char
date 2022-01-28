@@ -1,0 +1,16 @@
+// reverse character
+
+#include <conio.h>
+
+void main()
+{
+char ch;
+
+ printf("enter char :");
+ ch = getchar();
+
+ if(isupper(ch))
+  putch(tolower(ch));
+  else
+  putch(toupper(ch));
+  }
