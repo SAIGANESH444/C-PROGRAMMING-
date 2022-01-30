@@ -1,0 +1,14 @@
+// table 7
+#include<stdio.h>
+
+void main()
+{
+int i,n;
+
+n = 7;
+
+for(i=1;i<=20;i++)
+{
+printf(" %3d * %2d = %4d\n",n,i,n*i);
+}
+}
