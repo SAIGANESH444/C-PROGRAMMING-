@@ -1,0 +1,27 @@
+// even first odd then
+
+#include<stdio.h>
+
+void main()
+{
+int i;
+int arr[10];
+
+srand(time(0));
+for(i=0;i<=10;i++)
+{
+    arr[i] = rand()%100;
+    printf("%5d",arr[i]);
+}
+     for(i=0;i<10;i++)
+     {
+         if(arr[i]%2 == 0)
+            printf("even number %d\n",arr[i]);
+     }
+     printf("\n");
+       for(i=0;i<10;i++)
+       {
+           if(arr[i]%2 == 1)
+            printf("odd number %d\n",arr[i]);
+       }
+}
