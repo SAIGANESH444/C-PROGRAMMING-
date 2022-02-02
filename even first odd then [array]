@@ -16,12 +16,12 @@ for(i=0;i<=10;i++)
      for(i=0;i<10;i++)
      {
          if(arr[i]%2 == 0)
-            printf("even number %d\n",arr[i]);
+            printf("\neven number %d\n",arr[i]);
      }
      printf("\n");
        for(i=0;i<10;i++)
        {
            if(arr[i]%2 == 1)
-            printf("odd number %d\n",arr[i]);
+            printf("\nodd number %d\n",arr[i]);
        }
 }
