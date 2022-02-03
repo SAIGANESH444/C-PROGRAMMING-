@@ -1,0 +1,21 @@
+// COUNT LOWERCASE
+
+#include<stdio.h>
+
+void main()
+{
+
+int i,count=0;
+char name[30];
+
+  printf("enter a string :");
+  gets(name);
+
+
+  for(i=0;name[i] != '\0';i++)
+  {
+      if(islower(name[i]))
+         count++;
+  }
+   printf("count  :%d",count);
+   }
