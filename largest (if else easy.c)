@@ -1,0 +1,16 @@
+int max(int a,int b,int c)
+
+{
+ if(a>b && a>c)
+    return a;
+    if(b>c)
+        return b;
+    else
+        return c;
+}
+void main()
+{
+    printf("max(20,30,40)     %d\n", max(20,30,40));
+    printf("max(40,30,50)      %d\n", max(40,30,50));
+}
+
